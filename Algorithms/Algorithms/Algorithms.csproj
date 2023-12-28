@@ -42,6 +42,7 @@
     <ItemGroup>
         <Compile Include="Problems\GroupAnagramsProblem.cs" />
         <Compile Include="Problems\NumberOf1Bits.cs" />
+        <Compile Include="Problems\PalindromicSubstrings.cs" />
         <Compile Include="Problems\ValidAnagram.cs" />
         <Compile Include="Problems\ValidPalindrome.cs" />
         <Compile Include="Program.cs"/>
