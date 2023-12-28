@@ -4,7 +4,7 @@ namespace Algorithms.Problems
 {
     public class ValidPalindrome
     {
-        // we acan also use deque or two sided queue
+        // we can also use deque or two sided queue
         // or we can compare it with reverse: s.Reverse
         public bool IsPalindrome(string s) {
             s = Regex.Replace(s, @"[^a-zA-Z0-9]", "").Replace(" ","").ToLower();
