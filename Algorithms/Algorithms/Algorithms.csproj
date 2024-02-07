@@ -45,6 +45,7 @@
         <Compile Include="Problems\MaximumDepthOfBinaryTree.cs" />
         <Compile Include="Problems\NumberOf1Bits.cs" />
         <Compile Include="Problems\PalindromicSubstrings.cs" />
+        <Compile Include="Problems\ReverseLinkedList.cs" />
         <Compile Include="Problems\ValidAnagram.cs" />
         <Compile Include="Problems\ValidPalindrome.cs" />
         <Compile Include="Problems\ValidParentheses.cs" />
