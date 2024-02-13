@@ -47,6 +47,7 @@
         <Compile Include="Problems\PalindromicSubstrings.cs" />
         <Compile Include="Problems\ReverseLinkedList.cs" />
         <Compile Include="Problems\SameTree.cs" />
+        <Compile Include="Problems\TwoSumProblem.cs" />
         <Compile Include="Problems\ValidAnagram.cs" />
         <Compile Include="Problems\ValidPalindrome.cs" />
         <Compile Include="Problems\ValidParentheses.cs" />
