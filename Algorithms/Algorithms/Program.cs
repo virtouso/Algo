@@ -8,9 +8,9 @@ namespace Algorithms
         public static void Main(string[] args)
         {
 
-            ValidPalindrome p = new ValidPalindrome();
-            
-            Console.WriteLine(p.IsPalindrome("A man, a plan, a canal: Panama"));
+            ProductOfArrayExceptSelf obj = new ProductOfArrayExceptSelf();
+
+          var result=   obj.ProductExceptSelf(new[] {1,2,3,4 });
 
         }
     }
