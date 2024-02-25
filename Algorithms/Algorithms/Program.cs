@@ -7,11 +7,10 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
+            MaximumProductSubarray ins = new MaximumProductSubarray();
 
-            ProductOfArrayExceptSelf obj = new ProductOfArrayExceptSelf();
-
-          var result=   obj.ProductExceptSelf(new[] {1,2,3,4 });
-
+            var res = ins.MaxProduct(new int[] {2,3,-2,4 });
+            
         }
     }
 }
