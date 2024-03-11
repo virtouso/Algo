@@ -53,6 +53,7 @@
         <Compile Include="Problems\ProductOfArrayExceptSelf.cs" />
         <Compile Include="Problems\ReverseLinkedList.cs" />
         <Compile Include="Problems\SameTree.cs" />
+        <Compile Include="Problems\SearchInRotatedSortedArray.cs" />
         <Compile Include="Problems\TestThreadsCount.cs" />
         <Compile Include="Problems\TwoSumProblem.cs" />
         <Compile Include="Problems\ValidAnagram.cs" />
