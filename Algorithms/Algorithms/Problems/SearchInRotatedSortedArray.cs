@@ -1,4 +1,6 @@
-﻿namespace Algorithms.Problems
+﻿using System;
+
+namespace Algorithms.Problems
 {
     public class SearchInRotatedSortedArray
     {
@@ -27,6 +29,7 @@
                     else
                         l = mid + 1;
                 }
+                Console.WriteLine($"{l}|{r}");
             }
 
             return -1;
