@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using Algorithms.Problems;
 
 namespace Algorithms
@@ -8,8 +9,10 @@ namespace Algorithms
         public static void Main(string[] args)
         {
 
-            var sum = new ThreeSome();
-            Console.WriteLine(sum.ThreeSum(new []{-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6}));
+            ContainerWithMostWater solution = new  ContainerWithMostWater();
+            int[] heights = {1, 8, 6, 2, 5, 4, 8, 3, 7};
+            int maxArea = solution.MaxArea(heights);
+            Console.WriteLine("Maximum Area of Water: " + maxArea);
         }
     }
 }

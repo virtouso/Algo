@@ -41,6 +41,7 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Problems\BestTimeToBuyAndSellStock.cs" />
+        <Compile Include="Problems\ContainerWithMostWater.cs" />
         <Compile Include="Problems\FindMinimumInRotatedSortedArray.cs" />
         <Compile Include="Problems\GroupAnagramsProblem.cs" />
         <Compile Include="Problems\InvertBinaryTree.cs" />
