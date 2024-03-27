@@ -55,6 +55,7 @@
         <Compile Include="Problems\ReverseLinkedList.cs" />
         <Compile Include="Problems\SameTree.cs" />
         <Compile Include="Problems\SearchInRotatedSortedArray.cs" />
+        <Compile Include="Problems\SmallerChunks.cs" />
         <Compile Include="Problems\TestThreadsCount.cs" />
         <Compile Include="Problems\ThreeSome.cs" />
         <Compile Include="Problems\TwoSumProblem.cs" />

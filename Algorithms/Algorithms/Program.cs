@@ -8,11 +8,15 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
+            SmallerChunks chunks = new SmallerChunks();
 
-            ContainerWithMostWater solution = new  ContainerWithMostWater();
-            int[] heights = {1, 8, 6, 2, 5, 4, 8, 3, 7};
-            int maxArea = solution.MaxArea(heights);
-            Console.WriteLine("Maximum Area of Water: " + maxArea);
+            var res = chunks.MakeSmallerChunks(15, 15);
+            res = chunks.MakeSmallerChunks(15, 45);
+
+            res = chunks.MakeSmallerChunks(15, 50);
+            
+            res = chunks.MakeSmallerChunks(15, 7);
+            res = chunks.MakeSmallerChunks(15, 0);
         }
     }
 }
