@@ -8,15 +8,16 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            SmallerChunks chunks = new SmallerChunks();
+            RightChunkNumber num = new RightChunkNumber();
+            Console.WriteLine(num.CalculateRightChunkNumber(4,75,100));
+            Console.WriteLine(num.CalculateRightChunkNumber(4,74,100));
+            Console.WriteLine(num.CalculateRightChunkNumber(4,100,100));
+            Console.WriteLine(num.CalculateRightChunkNumber(4,50,100));
+            Console.WriteLine(num.CalculateRightChunkNumber(4,10,100));
+            Console.WriteLine(num.CalculateRightChunkNumber(4,0,100));
+            Console.WriteLine(num.CalculateRightChunkNumber(4,1,100));
 
-            var res = chunks.MakeSmallerChunks(15, 15);
-            res = chunks.MakeSmallerChunks(15, 45);
-
-            res = chunks.MakeSmallerChunks(15, 50);
             
-            res = chunks.MakeSmallerChunks(15, 7);
-            res = chunks.MakeSmallerChunks(15, 0);
         }
     }
 }
