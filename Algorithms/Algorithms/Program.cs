@@ -8,9 +8,9 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            SumOfTwoIntegers sum = new SumOfTwoIntegers();
-            var res = sum.GetSum(1, 1);
-
+            ClimbingStairs climb = new ClimbingStairs();
+         var result=   climb.ClimbStairs(4);
+         Console.WriteLine(result);
         }
     }
 }
