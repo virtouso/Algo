@@ -16,7 +16,7 @@
         
         
         
-        // easier. slower.
+        // easier. slower.7
         public int[] CountBits2(int num) {
             int[] result = new int[num + 1];
         

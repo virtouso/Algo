@@ -50,6 +50,7 @@
         <Compile Include="Problems\MaximumDepthOfBinaryTree.cs" />
         <Compile Include="Problems\MaximumProductSubarray.cs" />
         <Compile Include="Problems\MaximumSubArray.cs" />
+        <Compile Include="Problems\MissingNumber.cs" />
         <Compile Include="Problems\NumberOf1Bits.cs" />
         <Compile Include="Problems\PalindromicSubstrings.cs" />
         <Compile Include="Problems\ProductOfArrayExceptSelf.cs" />
