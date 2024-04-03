@@ -8,9 +8,9 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            ClimbingStairs climb = new ClimbingStairs();
-         var result=   climb.ClimbStairs(4);
-         Console.WriteLine(result);
+            CoinChangeProblem coin = new CoinChangeProblem();
+            var res = coin.CoinChange(new[] { 1, 2, 5 }, 11);
+            Console.WriteLine(res);
         }
     }
 }
