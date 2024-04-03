@@ -55,6 +55,7 @@
         <Compile Include="Problems\NumberOf1Bits.cs" />
         <Compile Include="Problems\PalindromicSubstrings.cs" />
         <Compile Include="Problems\ProductOfArrayExceptSelf.cs" />
+        <Compile Include="Problems\ReverseBitsProblem.cs" />
         <Compile Include="Problems\ReverseLinkedList.cs" />
         <Compile Include="Problems\RightChunkNumber.cs" />
         <Compile Include="Problems\SameTree.cs" />
