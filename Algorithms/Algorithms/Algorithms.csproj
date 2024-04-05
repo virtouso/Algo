@@ -67,6 +67,7 @@
         <Compile Include="Problems\SameTree.cs" />
         <Compile Include="Problems\SearchInRotatedSortedArray.cs" />
         <Compile Include="Problems\SmallerChunks.cs" />
+        <Compile Include="Problems\SubTreeOfAnotherTree.cs" />
         <Compile Include="Problems\SumOfTwoIntegers.cs" />
         <Compile Include="Problems\TestThreadsCount.cs" />
         <Compile Include="Problems\ThreeSome.cs" />
