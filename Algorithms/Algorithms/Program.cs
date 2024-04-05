@@ -8,9 +8,11 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            CoinChangeProblem coin = new CoinChangeProblem();
-            var res = coin.CoinChange(new[] { 1, 2, 5 }, 11);
-            Console.WriteLine(res);
+            CompressStringProblem com = new CompressStringProblem();
+
+            var res = com.CompressString("aaabbd");
+          Console.WriteLine();  
+          Console.WriteLine("moeeneee ");
         }
     }
 }

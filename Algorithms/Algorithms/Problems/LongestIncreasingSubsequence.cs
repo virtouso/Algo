@@ -9,27 +9,27 @@ namespace Algorithms.Problems
       //  Output: 4
       //  Explanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4.
         
-        public int LengthOfLIS(int[] nums) {
+        public int LengthOfIncreasingLength(int[] nums) {
             if (nums == null || nums.Length == 0) return 0;
 
-            int[] dp = new int[nums.Length];
-            for (int i = 0; i < dp.Length; i++) {
-                dp[i] = 1;
+            int[] result = new int[nums.Length];
+            for (int i = 0; i < result.Length; i++) {
+                result[i] = 1;
             }
             for (int i = 1; i < nums.Length; i++) {
                 for (int j = 0; j < i; j++) {
                     if (nums[i] > nums[j]) {
-                        dp[i] = Math.Max(dp[i], dp[j] + 1); // Update dp[i] with the maximum length of increasing subsequence ending at index i
+                        result[i] = Math.Max(result[i], result[j] + 1); // Update dp[i] with the maximum length of increasing subsequence ending at index i
                     }
                 }
             }
 
-            int maxLen = 0;
-            foreach (int len in dp) {
-                maxLen = Math.Max(maxLen, len);
+            int maxlength = 0;
+            foreach (int len in result) {
+                maxlength = Math.Max(maxlength, len);
             }
 
-            return maxLen;
+            return maxlength;
         }
     }
 }
