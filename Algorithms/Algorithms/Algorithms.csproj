@@ -50,6 +50,7 @@
         <Compile Include="Problems\FindMinimumInRotatedSortedArray.cs" />
         <Compile Include="Problems\GroupAnagramsProblem.cs" />
         <Compile Include="Problems\InvertBinaryTree.cs" />
+        <Compile Include="Problems\LinkedListCycle.cs" />
         <Compile Include="Problems\LongestIncreasingSubsequence.cs" />
         <Compile Include="Problems\LongestPalindromicSubstring.cs" />
         <Compile Include="Problems\MaximumDepthOfBinaryTree.cs" />
