@@ -53,6 +53,7 @@
         <Compile Include="Problems\LinkedListCycle.cs" />
         <Compile Include="Problems\LongestIncreasingSubsequence.cs" />
         <Compile Include="Problems\LongestPalindromicSubstring.cs" />
+        <Compile Include="Problems\LowestCommonAncestorOfABinarySearchTree.cs" />
         <Compile Include="Problems\MaximumDepthOfBinaryTree.cs" />
         <Compile Include="Problems\MaximumProductSubarray.cs" />
         <Compile Include="Problems\MaximumSubArray.cs" />
