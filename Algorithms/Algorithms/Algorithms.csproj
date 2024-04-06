@@ -71,6 +71,7 @@
         <Compile Include="Problems\HouseRobber.cs" />
         <Compile Include="Problems\InvertBinaryTree.cs" />
         <Compile Include="Problems\LinkedListCycle.cs" />
+        <Compile Include="Problems\LongestCommonSubsequenceProblem.cs" />
         <Compile Include="Problems\LongestIncreasingSubsequence.cs" />
         <Compile Include="Problems\LongestPalindromicSubstring.cs" />
         <Compile Include="Problems\LowestCommonAncestorOfABinarySearchTree.cs" />
