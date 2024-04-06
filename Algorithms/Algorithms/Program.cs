@@ -8,11 +8,8 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            CompressStringProblem com = new CompressStringProblem();
-
-            var res = com.CompressString("aaabbd");
-          Console.WriteLine();  
-          Console.WriteLine("moeeneee ");
+            HouseRobber rob = new HouseRobber();
+            rob.RobHouses(new[] { 1, 2, 3, 1 }, out var total);
         }
     }
 }
