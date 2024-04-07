@@ -97,6 +97,7 @@
         <Compile Include="Problems\ValidAnagram.cs" />
         <Compile Include="Problems\ValidPalindrome.cs" />
         <Compile Include="Problems\ValidParentheses.cs" />
+        <Compile Include="Problems\WordBreakProblem.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
