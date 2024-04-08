@@ -9,8 +9,8 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            DepthFirstSearch dfs = new DepthFirstSearch();
-            dfs.Run();
+            BreadthFirstSearch  bfs = new BreadthFirstSearch();
+            bfs.Run();
         }
     }
 }

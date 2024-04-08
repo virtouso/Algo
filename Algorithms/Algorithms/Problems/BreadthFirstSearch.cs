@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Algorithms.Problems
 {
-    public class DepthFirstSearch
+    public class BreadthFirstSearch
     {
         public class Node
         {
@@ -14,16 +14,16 @@ namespace Algorithms.Problems
         }
 
 
-        public HashSet<Node> Dfs(Node start)
+        public HashSet<Node> Bfs(Node start)
         {
             var visited = new HashSet<Node>();
-            var stack = new Stack<Node>();
+            var queue = new Queue<Node>();
             var result = new HashSet<Node>();
-            stack.Push(start);
+            queue.Enqueue(start);
 
-            while (stack.Count > 0)
+            while (queue.Count > 0)
             {
-                var current = stack.Pop();
+                var current = queue.Dequeue();
                 if (!visited.Add(current))
                     continue;
 
@@ -31,12 +31,13 @@ namespace Algorithms.Problems
                 var neighbours = current.Neighbors.Where(node => !visited.Contains(node));
                 foreach (var neighbour in neighbours) // consider  neighbors.reverse
                 {
-                    stack.Push(neighbour);
+                    queue.Enqueue(neighbour);
                 }
             }
 
             return result;
         }
+
 
         public void Run()
         {
@@ -54,7 +55,7 @@ namespace Algorithms.Problems
 
             n2.Neighbors.UnionWith(new[] { n4, n5, n6 });
 
-            var result = Dfs(start);
+            var result = Bfs(start);
 
             StringBuilder showResult = new StringBuilder();
 
@@ -65,5 +66,6 @@ namespace Algorithms.Problems
 
             Console.WriteLine(showResult.ToString());
         }
+        
     }
 }
