@@ -9,8 +9,8 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            BreadthFirstSearch  bfs = new BreadthFirstSearch();
-            bfs.Run();
+            GreatestCommonDivisor gcd = new GreatestCommonDivisor();
+            gcd.Run();
         }
     }
 }

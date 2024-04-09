@@ -69,6 +69,7 @@
         <Compile Include="Problems\DepthFirstSearch.cs" />
         <Compile Include="Problems\DuplicateInList.cs" />
         <Compile Include="Problems\FindMinimumInRotatedSortedArray.cs" />
+        <Compile Include="Problems\GreatestCommonDivisor.cs" />
         <Compile Include="Problems\GroupAnagramsProblem.cs" />
         <Compile Include="Problems\HouseRobber.cs" />
         <Compile Include="Problems\InvertBinaryTree.cs" />
