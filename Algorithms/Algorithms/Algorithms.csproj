@@ -92,6 +92,11 @@
         <Compile Include="Problems\SameTree.cs" />
         <Compile Include="Problems\SearchInRotatedSortedArray.cs" />
         <Compile Include="Problems\SmallerChunks.cs" />
+        <Compile Include="Problems\SortBubble.cs" />
+        <Compile Include="Problems\SortInsertion.cs" />
+        <Compile Include="Problems\SortMerge.cs" />
+        <Compile Include="Problems\SortQuick.cs" />
+        <Compile Include="Problems\SortSelection.cs" />
         <Compile Include="Problems\SubTreeOfAnotherTree.cs" />
         <Compile Include="Problems\SumOfTwoIntegers.cs" />
         <Compile Include="Problems\TestThreadsCount.cs" />
