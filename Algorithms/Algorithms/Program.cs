@@ -9,8 +9,8 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            GreatestCommonDivisor gcd = new GreatestCommonDivisor();
-            gcd.Run();
+            CombinationSumProblem prob = new CombinationSumProblem();
+            prob.Run();
         }
     }
 }

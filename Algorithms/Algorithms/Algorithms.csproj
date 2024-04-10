@@ -63,6 +63,7 @@
         <Compile Include="Problems\BreadthFirstSearch.cs" />
         <Compile Include="Problems\ClimbingStairs.cs" />
         <Compile Include="Problems\CoinChangeProblem.cs" />
+        <Compile Include="Problems\CombinationSumProblem.cs" />
         <Compile Include="Problems\CompressStringProblem.cs" />
         <Compile Include="Problems\ContainerWithMostWater.cs" />
         <Compile Include="Problems\CountingBits.cs" />
