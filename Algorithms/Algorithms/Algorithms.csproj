@@ -73,6 +73,7 @@
         <Compile Include="Problems\GreatestCommonDivisor.cs" />
         <Compile Include="Problems\GroupAnagramsProblem.cs" />
         <Compile Include="Problems\HouseRobber.cs" />
+        <Compile Include="Problems\HouseRobber2.cs" />
         <Compile Include="Problems\InvertBinaryTree.cs" />
         <Compile Include="Problems\LinkedListCycle.cs" />
         <Compile Include="Problems\LongestCommonSubsequenceProblem.cs" />
