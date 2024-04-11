@@ -9,8 +9,8 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            CombinationSumProblem prob = new CombinationSumProblem();
-            prob.Run();
+            NumRollsToTargetProblem prob = new NumRollsToTargetProblem();
+            prob.NumRollsToTarget(1, 6, 3);
         }
     }
 }
