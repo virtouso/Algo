@@ -67,11 +67,13 @@
         <Compile Include="Problems\CompressStringProblem.cs" />
         <Compile Include="Problems\ContainerWithMostWater.cs" />
         <Compile Include="Problems\CountingBits.cs" />
+        <Compile Include="Problems\CoutTimeIntervalsInPeriod.cs" />
         <Compile Include="Problems\DecodeWays.cs" />
         <Compile Include="Problems\DepthFirstSearch.cs" />
         <Compile Include="Problems\DuplicateInList.cs" />
         <Compile Include="Problems\FindMinimumInRotatedSortedArray.cs" />
         <Compile Include="Problems\NumRollsToTargetProblem.cs" />
+        <Compile Include="Problems\RecursiveFlattenArray.cs" />
         <Compile Include="Problems\RelativeSortArrayProblem.cs" />
         <Compile Include="Problems\GreatestCommonDivisor.cs" />
         <Compile Include="Problems\GroupAnagramsProblem.cs" />
@@ -105,7 +107,7 @@
         <Compile Include="Problems\SubTreeOfAnotherTree.cs" />
         <Compile Include="Problems\SumOfTwoIntegers.cs" />
         <Compile Include="Problems\TestThreadsCount.cs" />
-        <Compile Include="Problems\ThreeSome.cs" />
+        <Compile Include="Problems\ThreeSumProblem.cs" />
         <Compile Include="Problems\Traversal.cs" />
         <Compile Include="Problems\TwoSumProblem.cs" />
         <Compile Include="Problems\ValidAnagram.cs" />

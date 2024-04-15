@@ -22,7 +22,7 @@ namespace Algorithms.Problems
             return a;
         }
 
-        static int GcdList(List<int> numbers)
+         int GcdList(List<int> numbers)
         {
             if (numbers == null || numbers.Count == 0)
             {

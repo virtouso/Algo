@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Algorithms.Problems
 {
-    public class ThreeSum
+    public class ThreeSumProblem
     {
         public IList<IList<int>> ThreeSum(int[] nums)
         {
