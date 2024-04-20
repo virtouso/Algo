@@ -110,6 +110,7 @@
         <Compile Include="Problems\ThreeSumProblem.cs" />
         <Compile Include="Problems\Traversal.cs" />
         <Compile Include="Problems\TwoSumProblem.cs" />
+        <Compile Include="Problems\UniquePathsProblem.cs" />
         <Compile Include="Problems\ValidAnagram.cs" />
         <Compile Include="Problems\ValidPalindrome.cs" />
         <Compile Include="Problems\ValidParentheses.cs" />
