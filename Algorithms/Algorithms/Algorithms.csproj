@@ -62,6 +62,7 @@
         <Compile Include="Problems\BestTimeToBuyAndSellStock.cs" />
         <Compile Include="Problems\BreadthFirstSearch.cs" />
         <Compile Include="Problems\ClimbingStairs.cs" />
+        <Compile Include="Problems\CloneGraphProblem.cs" />
         <Compile Include="Problems\CoinChangeProblem.cs" />
         <Compile Include="Problems\CombinationSumProblem.cs" />
         <Compile Include="Problems\CompressStringProblem.cs" />
@@ -72,6 +73,7 @@
         <Compile Include="Problems\DepthFirstSearch.cs" />
         <Compile Include="Problems\DuplicateInList.cs" />
         <Compile Include="Problems\FindMinimumInRotatedSortedArray.cs" />
+        <Compile Include="Problems\JumpGame.cs" />
         <Compile Include="Problems\NumRollsToTargetProblem.cs" />
         <Compile Include="Problems\RecursiveFlattenArray.cs" />
         <Compile Include="Problems\RelativeSortArrayProblem.cs" />
