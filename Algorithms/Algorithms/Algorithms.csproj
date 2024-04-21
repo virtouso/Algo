@@ -71,9 +71,13 @@
         <Compile Include="Problems\CoutTimeIntervalsInPeriod.cs" />
         <Compile Include="Problems\DecodeWays.cs" />
         <Compile Include="Problems\DepthFirstSearch.cs" />
+        <Compile Include="Problems\DesignAddAndSearchWordsDataStructure.cs" />
         <Compile Include="Problems\DuplicateInList.cs" />
         <Compile Include="Problems\FindMinimumInRotatedSortedArray.cs" />
+        <Compile Include="Problems\KthSmallestElementInBinarySearchTree.cs" />
+        <Compile Include="Problems\Trie.cs" />
         <Compile Include="Problems\JumpGame.cs" />
+        <Compile Include="Problems\NumberOfIslands.cs" />
         <Compile Include="Problems\NumRollsToTargetProblem.cs" />
         <Compile Include="Problems\RecursiveFlattenArray.cs" />
         <Compile Include="Problems\RelativeSortArrayProblem.cs" />
@@ -110,10 +114,12 @@
         <Compile Include="Problems\SumOfTwoIntegers.cs" />
         <Compile Include="Problems\TestThreadsCount.cs" />
         <Compile Include="Problems\ThreeSumProblem.cs" />
+        <Compile Include="Problems\TopFrequentElements.cs" />
         <Compile Include="Problems\Traversal.cs" />
         <Compile Include="Problems\TwoSumProblem.cs" />
         <Compile Include="Problems\UniquePathsProblem.cs" />
         <Compile Include="Problems\ValidAnagram.cs" />
+        <Compile Include="Problems\ValidateBinarySearchTree.cs" />
         <Compile Include="Problems\ValidPalindrome.cs" />
         <Compile Include="Problems\ValidParentheses.cs" />
         <Compile Include="Problems\WordBreakProblem.cs" />

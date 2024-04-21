@@ -9,8 +9,8 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            NumRollsToTargetProblem prob = new NumRollsToTargetProblem();
-            prob.NumRollsToTarget(1, 6, 3);
+            ValidateBinarySearchTree res = new ValidateBinarySearchTree();
+            res.Run();
         }
     }
 }
