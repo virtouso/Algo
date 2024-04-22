@@ -61,6 +61,7 @@
     <ItemGroup>
         <Compile Include="Problems\BestTimeToBuyAndSellStock.cs" />
         <Compile Include="Problems\BreadthFirstSearch.cs" />
+        <Compile Include="Problems\CheckIsPrime.cs" />
         <Compile Include="Problems\ClimbingStairs.cs" />
         <Compile Include="Problems\CloneGraphProblem.cs" />
         <Compile Include="Problems\CoinChangeProblem.cs" />
