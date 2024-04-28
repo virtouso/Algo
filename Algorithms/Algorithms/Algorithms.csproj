@@ -77,9 +77,11 @@
         <Compile Include="Problems\FindMinimumInRotatedSortedArray.cs" />
         <Compile Include="Problems\KthSmallestElementInBinarySearchTree.cs" />
         <Compile Include="Problems\LongestSubstringWithoutRepeatingCharacters.cs" />
+        <Compile Include="Problems\MajorityElement.cs" />
         <Compile Include="Problems\RemoveNthNodeFromEnOfList.cs" />
         <Compile Include="Problems\SetMatrixZeros.cs" />
         <Compile Include="Problems\SpiralMatrix.cs" />
+        <Compile Include="Problems\TowerOfHanoi.cs" />
         <Compile Include="Problems\Trie.cs" />
         <Compile Include="Problems\JumpGame.cs" />
         <Compile Include="Problems\NumberOfIslands.cs" />
