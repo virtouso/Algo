@@ -75,6 +75,7 @@
         <Compile Include="Problems\DesignAddAndSearchWordsDataStructure.cs" />
         <Compile Include="Problems\DuplicateInList.cs" />
         <Compile Include="Problems\FindMinimumInRotatedSortedArray.cs" />
+        <Compile Include="Problems\MaxHeap.cs" />
         <Compile Include="Problems\KthSmallestElementInBinarySearchTree.cs" />
         <Compile Include="Problems\LongestSubstringWithoutRepeatingCharacters.cs" />
         <Compile Include="Problems\MajorityElement.cs" />
