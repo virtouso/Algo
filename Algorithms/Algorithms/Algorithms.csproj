@@ -59,6 +59,7 @@
         <Reference Include="System.Xml.Linq" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Problems\AStar.cs" />
         <Compile Include="Problems\BestTimeToBuyAndSellStock.cs" />
         <Compile Include="Problems\BreadthFirstSearch.cs" />
         <Compile Include="Problems\CheckIsPrime.cs" />
@@ -75,6 +76,7 @@
         <Compile Include="Problems\DesignAddAndSearchWordsDataStructure.cs" />
         <Compile Include="Problems\DuplicateInList.cs" />
         <Compile Include="Problems\FindMinimumInRotatedSortedArray.cs" />
+        <Compile Include="Problems\LeadersInArray.cs" />
         <Compile Include="Problems\MaxHeap.cs" />
         <Compile Include="Problems\KthSmallestElementInBinarySearchTree.cs" />
         <Compile Include="Problems\LongestSubstringWithoutRepeatingCharacters.cs" />
@@ -128,6 +130,7 @@
         <Compile Include="Problems\UniquePathsProblem.cs" />
         <Compile Include="Problems\ValidAnagram.cs" />
         <Compile Include="Problems\ValidateBinarySearchTree.cs" />
+        <Compile Include="Problems\ValidMountainArray.cs" />
         <Compile Include="Problems\ValidPalindrome.cs" />
         <Compile Include="Problems\ValidParentheses.cs" />
         <Compile Include="Problems\WordBreakProblem.cs" />
