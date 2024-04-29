@@ -4,7 +4,7 @@ namespace Algorithms.Problems
 {
     public class LeadersInArray
     {
-        public  List<int> FindLeaders(int[] arr)
+        public List<int> FindLeaders(int[] arr)
         {
             List<int> leaders = new List<int>();
 
@@ -29,5 +29,6 @@ namespace Algorithms.Problems
             // Reverse the list to get leaders in their original order
             leaders.Reverse();
             return leaders;
+        }
     }
 }
