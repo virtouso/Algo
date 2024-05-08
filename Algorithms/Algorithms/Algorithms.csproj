@@ -61,6 +61,7 @@
     <ItemGroup>
         <Compile Include="Problems\AStar.cs" />
         <Compile Include="Problems\BestTimeToBuyAndSellStock.cs" />
+        <Compile Include="Problems\BinaryStringAllCases.cs" />
         <Compile Include="Problems\BreadthFirstSearch.cs" />
         <Compile Include="Problems\CheckIsPrime.cs" />
         <Compile Include="Problems\ClimbingStairs.cs" />
@@ -145,6 +146,7 @@
         <Compile Include="Problems\ValidParentheses.cs" />
         <Compile Include="Problems\WaveSort.cs" />
         <Compile Include="Problems\WordBreakProblem.cs" />
+        <Compile Include="Problems\ZeroSumMatrix.cs" />
         <Compile Include="Program.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="WordSearch.cs" />

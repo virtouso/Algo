@@ -9,8 +9,8 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            ValidateBinarySearchTree res = new ValidateBinarySearchTree();
-            res.Run();
+            BinaryStringAllCases c = new BinaryStringAllCases();
+            c.Run();
         }
     }
 }
