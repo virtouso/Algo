@@ -9,8 +9,8 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            BinaryStringAllCases c = new BinaryStringAllCases();
-            c.Run();
+            ZeroSumMatrix s = new ZeroSumMatrix();
+            s.Run();
         }
     }
 }
