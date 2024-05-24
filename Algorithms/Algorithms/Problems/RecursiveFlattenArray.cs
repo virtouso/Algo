@@ -4,7 +4,7 @@ namespace Algorithms.Problems
 {
     public class RecursiveFlattenArray
     {
-        public static List<object> MakeFlat(List<object> input)
+        public List<object> MakeFlat(List<object> input)
         {
             var result = new List<object>(2);
             Recurs(input, result);
@@ -13,7 +13,7 @@ namespace Algorithms.Problems
         }
 
 
-        public static void Recurs(List<object> input, List<object> res)
+        public void Recurs(List<object> input, List<object> res)
         {
             if (input == null) return;
 
