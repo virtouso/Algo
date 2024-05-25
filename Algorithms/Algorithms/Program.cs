@@ -9,7 +9,7 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            ZeroSumMatrix s = new ZeroSumMatrix();
+            LongestConsecutiveSequence s = new LongestConsecutiveSequence();
             s.Run();
         }
     }

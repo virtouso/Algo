@@ -81,6 +81,7 @@
         <Compile Include="Problems\FindMinimumInRotatedSortedArray.cs" />
         <Compile Include="Problems\LargestSubarrayZeroSum.cs" />
         <Compile Include="Problems\LeadersInArray.cs" />
+        <Compile Include="Problems\LongestConsecutiveSequence.cs" />
         <Compile Include="Problems\MaxDifferenceInArray.cs" />
         <Compile Include="Problems\MaxHeap.cs" />
         <Compile Include="Problems\KthSmallestElementInBinarySearchTree.cs" />
