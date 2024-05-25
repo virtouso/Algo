@@ -88,6 +88,7 @@
         <Compile Include="Problems\MajorityElement.cs" />
         <Compile Include="Problems\MaxIndexDifference.cs" />
         <Compile Include="Problems\MergeIntervals.cs" />
+        <Compile Include="Problems\PacificAtlanticWaterFlow.cs" />
         <Compile Include="Problems\QueueWithDoubleStacks.cs" />
         <Compile Include="Problems\RemoveNthNodeFromEnOfList.cs" />
         <Compile Include="Problems\RomanToIntegerConverter.cs" />
