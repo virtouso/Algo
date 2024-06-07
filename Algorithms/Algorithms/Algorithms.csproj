@@ -79,6 +79,7 @@
         <Compile Include="Problems\DuplicateInList.cs" />
         <Compile Include="Problems\EquilibriumIndex.cs" />
         <Compile Include="Problems\FindMinimumInRotatedSortedArray.cs" />
+        <Compile Include="Problems\InsertInterval.cs" />
         <Compile Include="Problems\LargestSubarrayZeroSum.cs" />
         <Compile Include="Problems\LeadersInArray.cs" />
         <Compile Include="Problems\LongestConsecutiveSequence.cs" />
