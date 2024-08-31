@@ -1,16 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
+using System.Runtime.Remoting.Messaging;
 using Algorithms.Problems;
 using NUnit.Framework;
+using NUnit.Framework.Internal.Execution;
 
 namespace Algorithms
 {
     internal class Program
     {
-        public static void Main(string[] args)
+        static void Main()
         {
-            LongestConsecutiveSequence s = new LongestConsecutiveSequence();
-            s.Run();
         }
     }
 }

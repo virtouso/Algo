@@ -59,6 +59,7 @@
         <Reference Include="System.Xml.Linq" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Problems\AlienOrderProblem.cs" />
         <Compile Include="Problems\AStar.cs" />
         <Compile Include="Problems\BestTimeToBuyAndSellStock.cs" />
         <Compile Include="Problems\BinaryStringAllCases.cs" />
@@ -70,6 +71,7 @@
         <Compile Include="Problems\CombinationSumProblem.cs" />
         <Compile Include="Problems\CompressStringProblem.cs" />
         <Compile Include="Problems\ContainerWithMostWater.cs" />
+        <Compile Include="Problems\CountComponentsProblem.cs" />
         <Compile Include="Problems\CountingBits.cs" />
         <Compile Include="Problems\CourseSchedule.cs" />
         <Compile Include="Problems\CoutTimeIntervalsInPeriod.cs" />
@@ -89,6 +91,8 @@
         <Compile Include="Problems\LongestSubstringWithoutRepeatingCharacters.cs" />
         <Compile Include="Problems\MajorityElement.cs" />
         <Compile Include="Problems\MaxIndexDifference.cs" />
+        <Compile Include="Problems\MeetingRooms.cs" />
+        <Compile Include="Problems\MeetingRooms2.cs" />
         <Compile Include="Problems\MergeIntervals.cs" />
         <Compile Include="Problems\NonOverlappingIntervals.cs" />
         <Compile Include="Problems\PacificAtlanticWaterFlow.cs" />
@@ -149,6 +153,7 @@
         <Compile Include="Problems\ValidMountainArray.cs" />
         <Compile Include="Problems\ValidPalindrome.cs" />
         <Compile Include="Problems\ValidParentheses.cs" />
+        <Compile Include="Problems\ValidTreeProblem.cs" />
         <Compile Include="Problems\WaveSort.cs" />
         <Compile Include="Problems\WordBreakProblem.cs" />
         <Compile Include="Problems\ZeroSumMatrix.cs" />
