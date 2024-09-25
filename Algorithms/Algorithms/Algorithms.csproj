@@ -62,6 +62,7 @@
         <Compile Include="Problems\AlienOrderProblem.cs" />
         <Compile Include="Problems\AStar.cs" />
         <Compile Include="Problems\BestTimeToBuyAndSellStock.cs" />
+        <Compile Include="Problems\BinaryGapSolution.cs" />
         <Compile Include="Problems\BinaryStringAllCases.cs" />
         <Compile Include="Problems\BinaryTreeLevelOrderTraversal.cs" />
         <Compile Include="Problems\BreadthFirstSearch.cs" />
@@ -97,6 +98,7 @@
         <Compile Include="Problems\LongestSubstringWithoutRepeatingCharacters.cs" />
         <Compile Include="Problems\MajorityElement.cs" />
         <Compile Include="Problems\MaxIndexDifference.cs" />
+        <Compile Include="Problems\MaxProductOfTriplet.cs" />
         <Compile Include="Problems\MeetingRooms.cs" />
         <Compile Include="Problems\MeetingRooms2.cs" />
         <Compile Include="Problems\MergeIntervals.cs" />
@@ -104,6 +106,7 @@
         <Compile Include="Problems\MinWindowProblem.cs" />
         <Compile Include="Problems\NonOverlappingIntervals.cs" />
         <Compile Include="Problems\PacificAtlanticWaterFlow.cs" />
+        <Compile Include="Problems\PairCars.cs" />
         <Compile Include="Problems\QueueWithDoubleStacks.cs" />
         <Compile Include="Problems\RemoveNthNodeFromEnOfList.cs" />
         <Compile Include="Problems\ReorderListProblem.cs" />
@@ -159,6 +162,7 @@
         <Compile Include="Problems\Traversal.cs" />
         <Compile Include="Problems\TwoSumProblem.cs" />
         <Compile Include="Problems\UniquePathsProblem.cs" />
+        <Compile Include="Problems\UnPairedElement.cs" />
         <Compile Include="Problems\ValidAnagram.cs" />
         <Compile Include="Problems\ValidateBinarySearchTree.cs" />
         <Compile Include="Problems\ValidMountainArray.cs" />
